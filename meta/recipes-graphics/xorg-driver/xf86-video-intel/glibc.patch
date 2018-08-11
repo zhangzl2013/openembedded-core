@@ -1,0 +1,12 @@
+Index: git/tools/backlight_helper.c
+===================================================================
+--- git.orig/tools/backlight_helper.c
++++ git/tools/backlight_helper.c
+@@ -8,6 +8,7 @@
+ 
+ #include <sys/types.h>
+ #include <sys/stat.h>
++#include <sys/sysmacros.h>
+ 
+ #if MAJOR_IN_MKDEV
+ #include <sys/mkdev.h>
